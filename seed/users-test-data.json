@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "firstName": "Luke",
+    "lastName": "Skywalker",
+    "username": "luke",
+    "password": "lukepass",
+    "role": "user"
+  },
+  {
+    "id": "2",
+    "firstName": "Jin",
+    "lastName": "Erso",
+    "username": "jin",
+    "password": "jinpass",
+    "role": "admin"
+  }
+]

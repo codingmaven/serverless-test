@@ -1,0 +1,40 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "User API",
+  "scripts": {
+    "sls": "serverless",
+    "seed": "node ./seed/runner.js",
+    "start": "sls offline start",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix"
+  },
+  "engines": {
+    "node": ">=9.3"
+  },
+  "keywords": [
+    "nodejs",
+    "aws",
+    "lamdas",
+    "serverless",
+    "dynamodb",
+    "jest",
+    "es6"
+  ],
+  "author": "Tao Wang",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.336.0",
+    "dotenv": "^6.1.0",
+    "eslint": "^5.7.0",
+    "eslint-plugin-ava": "^4.2.2",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-unicorn": "^2.1.2",
+    "jest": "^23.6.0",
+    "serverless": "^1.32.0",
+    "serverless-offline": "^3.27.0"
+  }
+}
